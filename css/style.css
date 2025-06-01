@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+}
+  html {
+    -webkit-text-size-adjust: 100%;
+}  
+body{
+    background-color: rgb(224, 224, 224);
+    padding: 15px;
+    
+}
+.page_wrapper{
+    max-width: 405px;
+    height: auto;
+    margin: auto;
+  
+}
+.header{
+/* background */
+position: absolute;
+width: 405px;
+height: 260px;
+display: flex;
+flex-direction: row;
+align-items: center;
+font-family: Martian Mono;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: right;
+padding-left: 69.5px;
+padding-bottom: 43.5px;
+padding-right: 43.5px;
+padding-top: 82.5px;
+box-sizing: border-box;
+border: 1px solid rgba(0, 0, 0, 0.2);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+background: url('../img/background.png'),rgba(55, 37, 134, 0.52);
+background-blend-mode:multiply;
+background-size: cover;
+}
+.header_text_span{
+color: #FFFFFF;
+position: absolute;
+display: flex;
+padding-left: 70px;
+padding-bottom: 87px;
+padding-right: 43px;
+}
+.header_text_span_name{
+color:#FF1814;
+padding-left: 70px;
+padding-bottom: 87px;
+padding-right: 43px;
+text-shadow: 2px 2px #000000;
+}
+
+.container{
+    
+    position: relative;
+    top: 260px;
+    left: 0;
+    right: 0;
+    margin: auto; 
+    width: 405px; 
+    height: auto;
+    background-color:#1E0E67;   
+}
+.banner{
+/* Rectangle 1 */
+position: relative;
+height: 60px; 
+
+
+}
+p.banner{
+    background: rgb(71, 56, 137);
+    color: #FF1814;
+    align-content: center;
+    font-family: Martian Mono;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+}
+.block{
+/* Rectangle 2 */
+position: relative;
+display: flex;
+flex-direction: row;
+width: 405px;
+height: 295px;
+padding-top:0px;
+flex-flow: column ;
+align-items: center;
+text-align: center;
+
+}
+p.block{
+
+position: absolute;
+width: 405px;
+padding: 0px 90px ;
+color: #FFFFFF;
+font-family: Roboto Flex;
+font-weight:  200;
+font-size: 20px;
+line-height: 38px;
+justify-content:flex-start;
+}
+span.block{
+position: relative;
+flex-flow: column-reverse;
+color:#FF1814;
+font-family: Roboto Flex;
+font-weight:  200;
+font-size: 32px;
+line-height: 38px;
+align-self: center;
+}
+.button{
+position: relative;
+text-decoration: none;
+left: 40px;
+width: 325px;
+height: 79px;
+box-sizing: border-box;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 10px;
+background: rgb(71, 56, 137);
+text-shadow: 2px 2px #000000;
+}
+a.button_link{
+color: rgb(255, 255, 255);
+font-family: Martian Mono;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration-line: none;
+}
+.socials{
+position: relative;
+width: 405px;
+height: 120px;
+padding-top: 17px;
+background-color:#1E0E67;
+}
+.button_group{
+width: 405px;
+background-color:#1E0E67;
+display: flex;
+justify-content:space-evenly; 
+flex-direction: row; 
+}
+.button_github,.button_telegram,.button_whatsapp{
+border:none;
+background-color:#1E0E67;
+
+}
+img.button_icon_t,img.button_icon_w,img.button_icon_g{
+position: relative;
+width: 55px;
+height: 55px;
+background: rgb(30, 14, 103);
+}
+
+
